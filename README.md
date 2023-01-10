@@ -6,12 +6,12 @@
 Number and name of feature: #1: Display Images
 Estimate of time needed to complete: 1hr 
 Start time: 1330
-Finish time: 
-Actual time needed to complete: 
+Finish time: 1420
+Actual time needed to complete: 50mins
 
 Number and name of feature: #2: Allow Users to Favorite Individual Beasts
 Estimate of time needed to complete: 1hr
-Start time: 
+Start time: 1420
 Finish time: 
 Actual time needed to complete: 
 

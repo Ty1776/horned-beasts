@@ -3,6 +3,7 @@ import HornedBeast from '../HornedBeast';
 
 
 class Main extends React.Component{
+  
   render(){
     return(
       <>
