@@ -18,8 +18,8 @@ Actual time needed to complete: 20mins
 Number and name of feature: 3: Bootstrap
 Estimate of time needed to complete: 1hr
 Start time: 1445
-Finish time: 
-Actual time needed to complete: 
+Finish time: 1540
+Actual time needed to complete: 1hr
 
 - Lab 03 -  
 Number and name of feature: Feature #1: Display Images
