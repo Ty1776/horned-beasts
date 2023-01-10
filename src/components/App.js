@@ -5,6 +5,7 @@ import Header from './Header/Header';
 import Main from './Main/Main';
 import Footer from './Footer/Footer';
 import data from '../data/data.json';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 //2nd - Class Component
 
