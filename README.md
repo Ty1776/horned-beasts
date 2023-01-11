@@ -22,8 +22,8 @@ Finish time: 1540
 Actual time needed to complete: 1hr
 
 - Lab 03 -  
-Number and name of feature: Feature #1: Display Images
-Estimate of time needed to complete: 
+Number and name of feature: Feature #1: Display a Modal
+Estimate of time needed to complete: 2hrs
 Start time: 
 Finish time: 
 Actual time needed to complete: 
