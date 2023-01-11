@@ -1,6 +1,6 @@
 # Notes  
 
-- Lab 01 - 1.5 hours  
+- Lab 01 - 1.5hrs  
 
 - Lab 02 -  
 Number and name of feature: #1: Display Images
