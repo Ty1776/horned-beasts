@@ -1,6 +1,6 @@
 # Notes  
 
-- Lab 01 - 1.5 hours  
+- Lab 01 - 1.5hrs  
 
 - Lab 02 -  
 Number and name of feature: #1: Display Images
@@ -22,7 +22,14 @@ Finish time: 1540
 Actual time needed to complete: 1hr
 
 - Lab 03 -  
-Number and name of feature: Feature #1: Display Images
+Number and name of feature: Display a Modal
+Estimate of time needed to complete: 2hrs
+Start time: 1330
+Finish time: 1540
+Actual time needed to complete: 2hrs 10mins
+
+- Lab 04 -  
+Number and name of feature: 
 Estimate of time needed to complete: 
 Start time: 
 Finish time: 
