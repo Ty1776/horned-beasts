@@ -8,6 +8,7 @@ import data from '../data/data.json';
 import SelectedBeast from '../components/SelectedBeast';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+
 //2nd - Class Component
 
 class App extends React.Component {
@@ -41,16 +42,37 @@ class App extends React.Component {
     })
   }
 
+  handleSelect = (event) => {
+    let selected = event.target.value;
+
+    if (selected === 'even') {
+      let newData = data.filter(beastObj => beastObj.horns % 2 === 0);
+      this.setState({
+        beastData: newData
+      });
+    } else if (selected === 'odd') {
+      let newData = data.filter(beastObj => beastObj.horns % 2 === 1);
+      this.setState({
+        beastData: newData
+      });
+    } else if (selected === 'all') {
+      this.setState({
+        beastData: data
+      })
+    }
+  }
+
   render() {
     return (
       <>
         <Header />
-        <Main beastData={this.state.beastData} handleOpenModal={this.handleOpenModal} />
+
+        <Main beastData={this.state.beastData} handleOpenModal={this.handleOpenModal} handleSelect={this.handleSelect} />
         <SelectedBeast selectedBeastData={this.state.beastData}
-        title={this.state.title}
-        image_url={this.state.image_url}
-        description={this.state.description}
-        horns={this.state.horns}
+          title={this.state.title}
+          image_url={this.state.image_url}
+          description={this.state.description}
+          horns={this.state.horns}
           openModal={this.state.showModal}
           closeModal={this.handleCloseModal} />
         <Footer />
